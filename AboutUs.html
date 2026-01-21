@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dessert House - About Us</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">
+    <img src="Images/logo.png" alt="The Dessert House Logo">
+    <h2>The Dessert House</h2>
+  </div>
+
+  <nav class="nav">
+    <a href="AboutUs.html">About Us</a>
+
+   <div class="dropdown">
+  <a href="#" id="dessertBtn">Desserts </a>
+  <div class="dropdown-menu" id="dessertMenu">
+    <a href="AllDesserts.html">All Desserts</a>
+    <a href="Pastry.html">Pastry</a>
+    <a href="Brownie.html">Brownie</a>
+    <a href="Tart.html">Tart</a>
+    <a href="Teacake.html">Tea Cake</a>
+    <a href="CupCake.html">Cup Cake</a>
+    <a href="JarCake.html">Jar Cake</a>
+    <a href="Combo.html">Combo</a>
+  </div>
+</div>
+
+
+    <a href="Contact.html">Contact</a>
+  </nav>
+
+  <div class="right-section">
+    <div class="search-box">
+  <input type="text" placeholder="Search..." id="searchInput" readonly>
+  <span class="search-icon" id="searchBtn">🔍</span>
+
+  <div class="search-options" id="searchOptions">
+    <a href="Brownie.html">Brownies</a>   
+    <a href="Pastry.html">Pastry</a>  
+    <a href="CupCake.html">Cupcake</a>  
+    <a href="Tart.html">Tart</a>  
+    <a href="Teacake.html">Teacake</a>  
+    <a href="JarCake.html">Jarcake</a>  
+  </div>
+</div>
+
+
+    <div class="right-section" id="authSection">
+  <button class="login-btn" onclick="openLogin()">Log In / Sign Up</button>
+</div>
+
+  </div>
+</header>
+
+<!-- LOGIN POPUP -->
+<!-- <div class="login-popup" id="loginPopup">
+  <h3>Login / SignIn</h3>
+
+  <input type="text" id="otpInput" placeholder="Enter OTP">
+
+  <button class="otp-btn" onclick="generateOTP()">Generate OTP</button>
+
+  <p class="terms">
+    By continuing I agree to the Dessert House’s Terms and Conditions
+  </p>
+
+  <button class="submit-btn" onclick="submitOTP()">Submit</button>
+</div> -->
+
+
+
+
+<section class="about-intro">
+  <h2>About Us</h2>
+  <h3>Food of The Gods, Freshly Baked!</h3>
+  <p>
+    Since 2024, we've been serving our guests the best quality treats,
+    traditionally made and presented with care.
+  </p>
+</section>
+
+
+
+<section class="about-features">
+  <div class="feature-column left">
+    <div class="feature-box">
+      <h4>AUTHENTIC RECIPES</h4>
+      <p>
+        Our products are based on traditional home-style recipes using fresh ingredients.
+      </p>
+    </div>
+
+    <div class="feature-box">
+      <h4>BAKED WITH LOVE</h4>
+      <p>
+        Our passion for baking is poured into every recipe, serving smiles on a plate everyday.
+      </p>
+    </div>
+  </div>
+
+  <div class="feature-image">
+    <img src="Images/desset.png" alt="Dessert Shop Illustration">
+  </div>
+
+  <div class="feature-column right">
+    <div class="feature-box">
+      <h4>COMMITTED TO QUALITY</h4>
+      <p>
+        From our ingredients to our kitchen operations and guest services, we always prioritize quality.
+      </p>
+    </div>
+
+    <div class="feature-box">
+      <h4>HONESTLY PRICED</h4>
+      <p>
+        We constantly strive to offer the best products at the right prices.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<section class="about-story">
+  <p>
+    "The dessert house" would be a dedicated establishment for sweet foods and indulgent range of
+    offerings that include brownies, cakes, desserts, chocolates, breads, and savouries.
+  </p>
+
+  <p>
+    From our humble beginnings in 2024, when the first The dessert house pastry store opened its doors
+    at the place of Karaikudi, Tamil Nadu, India, we've grown to become a Pan-India chain of patisseries
+    with stores in over 10 cities.
+  </p>
+
+  <p>
+    Our mission is to spread happiness by serving smiles on a plate, and this journey continues as we
+    open The dessert house patisseries across the country.
+  </p>
+</section>
+
+
+
+
+<section class="about-stats">
+
+  <!-- Left -->
+  <div class="stat-column">
+    <div class="stat-box dark">
+      <div class="stat-icon">🎓</div>
+      <h3>Founded in 2024</h3>
+    </div>
+    <p class="stat-note">
+      We as a brand believe in the power of wishes
+    </p>
+  </div>
+
+  <!-- Center -->
+  <div class="stat-column">
+    <div class="stat-box light">
+      <div class="stat-icon">📍</div>
+      <h3>10 Cities</h3>
+    </div>
+  </div>
+
+  <!-- Right -->
+  <div class="stat-column">
+    <div class="stat-box dark">
+      <div class="stat-icon">🎁</div>
+      <h3>20+ Unique Desserts</h3>
+    </div>
+    <p class="stat-note">
+      We offer a wide variety of desserts for everyone
+    </p>
+  </div>
+
+</section>
+
+
+
+
+
+<section class="about-journey">
+
+  <div class="journey-content">
+    <!-- LEFT TEXT -->
+    <div class="journey-text">
+      <h3>Remember the days when you believed anything was possible?</h3>
+
+      <p>
+        When dreams felt like they were within reach? We want to bring that sense of
+        wonder back to your life.
+      </p>
+
+      <p>
+        With every cake we create, we aim to spark joy and remind you that dreams do come
+        true.
+      </p>
+
+      <p>
+        At the heart of our journey is constant innovation. Our in-house R & D centre helps
+        us discover new flavours, reimagine classic desserts, and craft experiences that
+        delight with every bite.
+      </p>
+
+      <p>
+        This commitment to creativity and quality has not only won hearts but also earned
+        us industry recognition, including winning the Swiggy Award for Best Dessert Brand
+        a milestone that sweetly affirms our mission.
+      </p>
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="journey-image">
+      <img src="Images/mug.png" alt="Dessert Image">
+    </div>
+  </div>
+
+  <!-- WAVE SECTION -->
+  <section class="wave-award">
+
+  <!-- Pink wave SVG -->
+  <svg class="pink-wave" viewBox="0 0 1440 60" preserveAspectRatio="none">
+  <path
+    d="
+      M0,40
+      Q40,0 80,40
+      T160,40
+      T240,40
+      T320,40
+      T400,40
+      T480,40
+      T560,40
+      T640,40
+      T720,40
+      T800,40
+      T880,40
+      T960,40
+      T1040,40
+      T1120,40
+      T1200,40
+      T1280,40
+      T1360,40
+      T1440,40
+      L1440,60
+      L0,60
+      Z
+    "
+    fill="#D72D52"
+  />
+</svg>
+
+
+  <div class="wave-text">
+    Swiggy Award For Best Dessert Brand
+  </div>
+
+</section>
+
+
+
+</section>
+
+
+
+
+<footer class="footer">
+
+  <!-- Wave + Title -->
+  <div class="footer-wave">
+    <svg viewBox="0 0 1440 60" preserveAspectRatio="none">
+      <path
+        d="
+          M0,40
+          Q40,0 80,40
+          T160,40
+          T240,40
+          T320,40
+          T400,40
+          T480,40
+          T560,40
+          T640,40
+          T720,40
+          T800,40
+          T880,40
+          T960,40
+          T1040,40
+          T1120,40
+          T1200,40
+          T1280,40
+          T1360,40
+          T1440,40
+          L1440,0
+          L0,0
+          Z
+        "
+        fill="#F8EBEB"
+      />
+    </svg>
+
+    <h2 class="footer-title">Quick links</h2>
+  </div>
+
+  <!-- Footer Content -->
+  <div class="footer-content">
+
+    <!-- Column 1 -->
+    <div class="footer-col">
+      <a href="DessertHouse.html">
+        <img src="Images/logo.png" alt="The Dessert House" class="footer-logo">
+      </a>
+      <h3>The Dessert House</h3>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Column 2 -->
+    <div class="footer-col">
+      <a href="AboutUs.html">About Us</a>
+      <a href="AllDesserts.html">Desserts</a>
+      <a href="Contact.html">Contact</a>
+      <a href="Blogs.html">Blogs</a>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Column 3 -->
+    <div class="footer-col">
+      <a href="FAQ.html">FAQ</a>
+      <a href="Privacy Policy.html">Privacy Policy</a>
+      <a href="Terms and Conditions.html">Terms and Conditions</a>
+      <a href="RefundPolicy.html">Refund Policy</a>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Column 4 -->
+    <div class="footer-col contact-col">
+      <p>📞 +91 987 654 3210</p>
+      <p>✉️ contact@thedesserthouse.in</p>
+
+      <div class="social-icons">
+        <a href="#"><img src="Images/facebook.png" alt="YouTube"></a>
+        <a href="#"><img src="Images/twitter.png" alt="Facebook"></a>
+        <a href="#"><img src="Images/insta.jfif" alt="Instagram"></a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bottom -->
+  <div class="footer-bottom">
+    © 2024 @thedesserthousein
+  </div>
+
+</footer>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

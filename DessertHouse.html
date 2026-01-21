@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dessert House - DessertHouse</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">
+    <img src="Images/logo.png" alt="The Dessert House Logo">
+    <h2>The Dessert House</h2>
+  </div>
+
+  <nav class="nav">
+    <a href="AboutUs.html">About Us</a>
+
+   <div class="dropdown">
+  <a href="#" id="dessertBtn">Desserts </a>
+  <div class="dropdown-menu" id="dessertMenu">
+     <a href="AllDesserts.html">All Desserts</a>
+    <a href="Pastry.html">Pastry</a>
+    <a href="Brownie.html">Brownie</a>
+    <a href="Tart.html">Tart</a>
+    <a href="Teacake.html">Tea Cake</a>
+    <a href="CupCake.html">Cup Cake</a>
+    <a href="JarCake.html">Jar Cake</a>
+    <a href="Combo.html">Combo</a>
+  </div>
+</div>
+
+
+    <a href="Contact.html">Contact</a>
+  </nav>
+
+  <div class="right-section">
+    <div class="search-box">
+  <input type="text" placeholder="Search..." id="searchInput" readonly>
+  <span class="search-icon" id="searchBtn">🔍</span>
+
+  <div class="search-options" id="searchOptions">
+     <a href="Brownie.html">Brownies</a>   
+    <a href="Pastry.html">Pastry</a>  
+    <a href="CupCake.html">Cupcake</a>  
+    <a href="Tart.html">Tart</a>  
+    <a href="Teacake.html">Teacake</a>  
+    <a href="JarCake.html">Jarcake</a>    
+
+  </div>
+</div>
+
+
+    <!-- <div class="right-section" id="authSection">
+  <button class="login-btn" onclick="openLogin()">Log In / Sign Up</button>
+</div> -->
+<div class="right-section" id="authSection">
+  <button class="login-btn" onclick="openLogin()">Log In / Sign Up</button>
+</div>
+
+
+  </div>
+</header>
+
+
+
+<!-- LOGIN POPUP -->
+<div class="login-popup" id="loginPopup">
+  <h3>Login / SignIn</h3>
+
+  <input type="text" id="otpInput" placeholder="Enter OTP">
+
+  <button class="otp-btn" onclick="generateOTP()">Generate OTP</button>
+
+  <p class="terms">
+    By continuing I agree to the Dessert House’s Terms and Conditions
+  </p>
+
+
+  <a href="AboutUs.html">
+  <button class="submit-btn" onclick="submitOTP()">Submit</button>
+  </a>
+</div>
+
+
+
+
+<section class="hero-slider">
+  <img src="Images/oreo.png" class="slide active" alt="Dessert 1">
+  <img src="Images/cheesecake.png" class="slide" alt="Dessert 2">
+  <img src="Images/milkshake.png" class="slide" alt="Dessert 3">
+</section>
+
+
+
+
+<section class="products-section">
+
+  <h2 class="section-title">Our Products</h2>
+
+  <div class="product-grid">
+
+    <div class="product-card">
+      <img src="Images/pastry1.png" alt="Pastries">
+      <p>Pastries</p>
+    </div>
+
+    <div class="product-card">
+      <img src="Images/brownie.png" alt="Brownies">
+      <p>Brownies</p>
+    </div>
+
+    <div class="product-card">
+      <img src="Images/pastry13.png" alt="Jar Cakes">
+      <p>Jar Cakes</p>
+    </div>
+
+    <div class="product-card">
+      <img src="Images/teacake.png" alt="Tea Cakes">
+      <p>Tea Cakes</p>
+    </div>
+
+    <div class="product-card">
+      <img src="Images/tart.png" alt="Tarts">
+      <p>Tarts</p>
+    </div>
+
+    <div class="product-card">
+      <img src="Images/cupcake.png" alt="Cup Cakes">
+      <p>Cup Cakes</p>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+<section class="testimonial-section">
+
+  <h2 class="testimonial-title">Testimonials</h2>
+
+  <div class="testimonial-container">
+
+    <div class="testimonial active">
+      <p class="testimonial-text">
+        I love all The Dessert House products but the chocolate overload brownie has been my all-time favourite and truly justifies its name with its rich chocolate gooeyness. The Dessert House is truly one of our favourite places!
+      </p>
+      <p class="testimonial-author">
+        Meenakshi Verma, Pudukkottai
+      </p>
+    </div>
+
+    <div class="testimonial">
+      <p class="testimonial-text">
+        The desserts are absolutely delicious and fresh every single time. The flavours are well balanced and presentation is beautiful. Highly recommended for dessert lovers!
+      </p>
+      <p class="testimonial-author">
+        Anitha R, Coimbatore
+      </p>
+    </div>
+
+    <div class="testimonial">
+      <p class="testimonial-text">
+        A perfect place to satisfy sweet cravings. Their brownies and jar cakes are heavenly. Quality and taste never disappoint!
+      </p>
+      <p class="testimonial-author">
+        Karthik S, Chennai
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Wave -->
+  <svg class="testimonial-wave" viewBox="0 0 1440 60" preserveAspectRatio="none">
+    <path
+      d="
+        M0,40
+        Q40,0 80,40
+        T160,40
+        T240,40
+        T320,40
+        T400,40
+        T480,40
+        T560,40
+        T640,40
+        T720,40
+        T800,40
+        T880,40
+        T960,40
+        T1040,40
+        T1120,40
+        T1200,40
+        T1280,40
+        T1360,40
+        T1440,40
+        L1440,60
+        L0,60
+        Z
+      "
+      fill="#D72D52"
+    />
+  </svg>
+
+</section>
+
+
+
+
+
+<section class="best-seller">
+
+  <h2 class="section-title">Best Seller Combos</h2>
+
+  <div class="card-container">
+
+    <div class="combo-card">
+      <img src="Images/pastry38.png" alt="Brownies">
+      <p>Set of Six Assorted <br>Brownies</p>
+    </div>
+
+    <div class="combo-card">
+      <img src="Images/cakes.png" alt="Pastries">
+      <p>Set of Six Assorted <br>Pastries</p>
+    </div>
+
+    <div class="combo-card">
+      <img src="Images/cupcake.png" alt="Cupcakes">
+      <p>Set of Six Assorted <br>Pastries</p>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+
+
+
+
+<footer class="footer">
+
+  <!-- Wave + Title -->
+  <div class="footer-wave">
+    <svg viewBox="0 0 1440 60" preserveAspectRatio="none">
+      <path
+        d="
+          M0,40
+          Q40,0 80,40
+          T160,40
+          T240,40
+          T320,40
+          T400,40
+          T480,40
+          T560,40
+          T640,40
+          T720,40
+          T800,40
+          T880,40
+          T960,40
+          T1040,40
+          T1120,40
+          T1200,40
+          T1280,40
+          T1360,40
+          T1440,40
+          L1440,0
+          L0,0
+          Z
+        "
+        fill="#F8EBEB"
+      />
+    </svg>
+
+    <h2 class="footer-title">Quick links</h2>
+  </div>
+
+  <!-- Footer Content -->
+  <div class="footer-content">
+
+    <!-- Column 1 -->
+    <div class="footer-col">
+      <a href="DessertHouse.html">
+        <img src="Images/logo.png" alt="The Dessert House" class="footer-logo">
+      </a>
+      <h3>The Dessert House</h3>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Column 2 -->
+    <div class="footer-col">
+      <a href="AboutUs.html">About Us</a>
+      <a href="AllDesserts.html">Desserts</a>
+      <a href="Contact.html">Contact</a>
+      <a href="Blogs.html">Blogs</a>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Column 3 -->
+    <div class="footer-col">
+      <a href="FAQ.html">FAQ</a>
+      <a href="Privacy Policy.html">Privacy Policy</a>
+      <a href="Terms and Conditions.html">Terms and Conditions</a>
+      <a href="RefundPolicy.html">Refund Policy</a>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Column 4 -->
+    <div class="footer-col contact-col">
+      <p>📞 +91 987 654 3210</p>
+      <p>✉️ contact@thedesserthouse.in</p>
+
+      <div class="social-icons">
+        <a href="#"><img src="Images/facebook.png" alt="YouTube"></a>
+        <a href="#"><img src="Images/twitter.png" alt="Facebook"></a>
+        <a href="#"><img src="Images/insta.jfif" alt="Instagram"></a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bottom -->
+  <div class="footer-bottom">
+    © 2024 @thedesserthousein
+  </div>
+
+</footer>
+
+
+
+<section class="order-section">
+  <img src="Images/mug.png" alt="Dessert" class="order-img">
+
+  <button class="order-btn">Order Online</button>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
